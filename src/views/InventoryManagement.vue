@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3 class="text-3xl font-medium text-gray-700">
+    <h3 class="text-3xl font-medium">
       Inventory Management
     </h3>
     <div class="mt-6">

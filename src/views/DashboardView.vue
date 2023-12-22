@@ -2,16 +2,18 @@
 import Sidebar from '../components/Sidebar.vue'
 import Header from '../components/Header.vue'
 import { RouterView } from 'vue-router'
+import BGImage from '@/assets/01.jpeg'
+
 </script>
 
 <template>
-  <div class="flex h-screen bg-gray-200 font-roboto">
+  <div class="flex h-screen bg-gray-200 font-roboto bg-cover" :style="{backgroundImage: `url(${BGImage})`}">
     <Sidebar />
 
     <div class="flex-1 flex flex-col overflow-hidden">
       <Header />
 
-      <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-200">
+      <main class="flex-1 overflow-x-hidden overflow-y-auto bg-black bg-opacity-20 text-light">
         <div class="container mx-auto px-6 py-8">
           <RouterView/>
         </div>

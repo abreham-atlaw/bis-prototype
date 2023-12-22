@@ -42,7 +42,7 @@ const products = ref([
 
 <template>
   <div>
-    <h3 class="text-3xl font-medium text-gray-700">
+    <h3 class="text-3xl font-medium">
       Dashboard
     </h3>
 
@@ -177,7 +177,7 @@ const products = ref([
 
     <div class="flex">
       <div class="flex flex-col mt-8 w-1/2 px-2">
-        <h3 class="text-2xl font-medium text-gray-700">
+        <h3 class="text-2xl font-medium">
           Low Inventory Alert
         </h3>
       <div class="mt-2">
@@ -218,7 +218,7 @@ const products = ref([
       </div>
 
       <div class="flex flex-col mt-8 w-1/2 px-2">
-        <h3 class="text-2xl font-medium text-gray-700">
+        <h3 class="text-2xl font-medium">
           Top Products
         </h3>
       <div class="mt-2">

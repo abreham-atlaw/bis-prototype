@@ -107,11 +107,11 @@ interface InventoryItem {
 export default defineComponent({
   setup() {
     const inventory = ref<InventoryItem[]>([
-      { id: 1, name: 'Flour', quantity: 10, daily: "100 kgs" },
-      { id: 2, name: 'Sugar', quantity: 5, daily: "50 kgs"  },
-      { id: 3, name: 'Egg', quantity: 8, daily: "200 eggs"  },
-      { id: 3, name: 'Milk', quantity: 5, daily: "50 ltr"  },
-      { id: 3, name: 'Vegetable Oil', quantity: 3, daily: "30 ltr"  },
+      { id: 1, name: 'Flour', quantity: "10 kgs", daily: "100 kgs" },
+      { id: 2, name: 'Sugar', quantity: "5 kgs", daily: "50 kgs"  },
+      { id: 3, name: 'Egg', quantity: "8 units", daily: "200 eggs"  },
+      { id: 3, name: 'Milk', quantity: "5 ltr", daily: "50 ltr"  },
+      { id: 3, name: 'Vegetable Oil', quantity: "3 ltr", daily: "30 ltr"  },
     ]);
 
     const products = ref<InventoryItem[]>([
